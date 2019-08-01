@@ -1,5 +1,5 @@
 html, body {
-    background-color: #ededed;
+    background-color: #f2f2f2;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -15,8 +15,10 @@ html, body {
     justify-content: space-between;
     padding: 5px 20px;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px #797979;
+    box-shadow: 0 -20px 30px #a3a3a3;
 }
+
+
 
 #logo {
     width: 180px;
@@ -26,8 +28,22 @@ html, body {
     display: flex;
     width: 50%;
     justify-content: space-evenly;
-    max-width: 400px;
+    max-width: 600px;
+    align-items: center;
 }
+
+.nav-bar a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.nav-bar a:hover {
+    color: #f2775c;
+}
+
+
 
 
 .main {
@@ -46,11 +62,16 @@ html, body {
 }
 
 .footer-links {
+    width: 50%;
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    align-items: center;
 }
 
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
 
 /* Text */
 
@@ -127,7 +148,6 @@ html, body {
 .card {
     background-color: #fff;
     box-shadow: 0 2px 30px #797979;
-    /* width: 40%; */
     width: 400px;
     padding: 40px;
     box-sizing: border-box;
@@ -146,7 +166,7 @@ html, body {
     font-size: medium;
 }
 
-.card.clickable:hover {
+.card.animated:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 20px #292929;
 }

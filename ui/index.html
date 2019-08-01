@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Mylern Tech</title>
 </head>
 <body>
     <div class="nav-bar" >
         <img id="logo" src="./assets/logo.png" alt="logo" />
         <div id="nav-bar-links" >
-            <p>Services</p>
-            <p>Our Work</p> 
-            <p>About Us</p>
-            <p>Work With Us</p>
+            <a href="#services">Services</a>
+            <a href="#">Our Work</a>
+            <a href="#">About Us</a>
+            <a href="#contact">Work With Us</a>
         </div>
     </div>
     <div class="main" >
@@ -25,94 +25,109 @@
                     Are You Ready to Take Your Business Online?
                 </h2>
                 <div id="cta-btns" >
-                    <button class="btn pry large" >Tell Us About Your Business</button>
+                    <a href="#contact" >
+                        <button class="btn pry large" >Tell Us About Your Business</button>
+                    </a>
                     <button class="btn sec large" >See Our Latest Work</button>
                 </div>
             </div>
 
-            <img id="cta-img" src="./assets/main-image.jpg" alt="computer">
+            <!-- <img id="cta-img" src="./assets/main-image.jpg" alt="computer"> -->
+            <img id="cta-img" src="./assets/main-image.png" alt="computer">
         </div>
         <div id="blurb" >
-            <h2 class="text header l2" >Professional Web Design</h2>
+            <h2 class="text header l2" >Professional Web Services</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit 
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-                occaecat cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum.
+                When people hear about your business, do you know where they look
+                for you first? That's right. The Internet. And that's where we come 
+                in. We are a team of highly capable experts that specializes in 
+                bringing your business online. We design and create beautiful, professional 
+                websites that allow you to reach and engage with new and returning customers
+                at great value for your money.
             </p>
         </div>
         <div id="services" >
             <h2 class="text header l2" >Services We Offer</h2>
             <div id="services-list" >
-                <div class="card clickable" >
+                <div class="card animated" >
                     <img class="card-img" src="./assets/icons/web-design-icon.png" alt="Web Design Icon" />
                     <h3 class="card-title" >Website Design</h3>
                     <p class="card-text" >
-                        Iaculis eu non diam phasellus. Duis convallis convallis 
-                        tellus id. Nisl vel pretium lectus quam id leo in vitae. 
-                        Arcu dictum varius duis at consectetur lorem donec massa 
-                        sapien. 
+                        The design team at Mylern works to produce beautiful and 
+                        functional user experience aimed to help you to differentiate 
+                        yourself by making your project more visible and powerful.
+                        We work closely with you to ensure that the typography, 
+                        images and colour schemes used for your new web design 
+                        reflect your business and brand, and effectively communicate 
+                        your message accurately and successfully to your target audience.
                     </p>
                 </div>
-                <div class="card clickable" >
+                <div class="card animated" >
                     <img class="card-img" src="./assets/icons/web-dev-icon.png" alt="Web Dev Icon" />
                     <h3 class="card-title" >Website Development</h3>
                     <p class="card-text" >
-                        Mauris nunc congue nisi vitae suscipit tellus 
-                        mauris. Sagittis purus sit amet volutpat consequat mauris 
-                        nunc. Aliquam id diam maecenas ultricies mi eget mauris. 
-                        Aenean euismod elementum nisi quis eleifend quam adipiscing 
-                        vitae proin. 
+                        Using design mockups from our design team at the Website Design 
+                        stage or from another designer, we construct fully functional 
+                        websites conforming to industry standards and best practices.
+                        During development, we strive keep scalability and stability 
+                        in mind. Therefore, as your business grow, you can get
+                        in touch with us to keep your website evolving to meet your 
+                        needs.
                     </p>
                 </div>
-                <div class="card clickable" >
+                <div class="card animated" >
                     <img class="card-img" src="./assets/icons/web-security-icon.png" alt="Web Security Icon" />
                     <h3 class="card-title" >Website Security and Optimization</h3>
                     <p class="card-text" >
-                        Nulla aliquet enim tortor at auctor urna. 
-                        Tempor commodo ullamcorper a lacus vestibulum sed arcu. 
-                        Quam pellentesque nec nam aliquam sem et tortor consequat.
-                        Scelerisque in dictum non consectetur a. Arcu odio ut 
-                        sem nulla pharetra diam sit amet. Enim lobortis 
-                        scelerisque fermentum dui faucibus in ornare. 
+                        When working on a website, speed and security are 
+                        our foremost concerns. Nothing breaks the user experience 
+                        quite like a website that takes forever to load. And even 
+                        worse is an insecure website. We perform extensive testing and 
+                        double-check that everything looks and works as it should well
+                        before deploying to production. We ensure that they have fast load
+                        times and lag free interactions. Working with skilled pen-testers,
+                        we also ensure security adheres to industry standards to give 
+                        our clients peace of mind.
                     </p>
                 </div>
-                <div class="card clickable" >
+                <div class="card animated" >
+                    <img class="card-img" src="./assets/icons/responsive-web-icon.png" alt="Responsive Icon" />
+                    <h3 class="card-title" >Responsive Website Development</h3>
+                    <p class="card-text" >
+                        We at Mylern Tech believe that designing a responsive website
+                        is not an option - it is a necessity. As a standard, all websites 
+                        we build are designed to work on any device, big or small.
+                        Whether that is an oversized desktop computer monitor, a 
+                        laptop or devices with small screens such as smartphones 
+                        and tablets, our timeless designs adapt beautifully to them all
+                        ensuring that your users and potential customers will be 
+                        getting the best possible experience from your mobile friendly website.
+                    </p>
+                </div>
+                <div class="card animated" >
                     <img class="card-img" src="./assets/icons/web-hosting-icon.png" alt="Web Hosting Icon" />
                     <h3 class="card-title" >Website Hosting and Updates</h3>
                     <p class="card-text" >
-                        Nulla aliquet enim tortor at auctor urna. 
-                        Tempor commodo ullamcorper a lacus vestibulum sed arcu. 
-                        Quam pellentesque nec nam aliquam sem et tortor consequat.
-                        Scelerisque in dictum non consectetur a. Arcu odio ut 
-                        sem nulla pharetra diam sit amet. Enim lobortis 
-                        scelerisque fermentum dui faucibus in ornare. 
+                        You've built a great website that's sure to blow your users
+                        away, but now, what's next? We at Mylern Tech can host your 
+                        website on fast, reliable and secure servers at an affordable
+                        monthly fee so that you can focus on your business while we 
+                        take care of the technical details. We also provide periodic
+                        maintainance checks to ensure your website continues to run 
+                        smoothly and you are free to cancel at any time.
                     </p>
                 </div>
-                <div class="card clickable" >
-                    <img class="card-img" src="./assets/icons/system-dev-icon.png" alt="SysDev Icon" />
-                    <h3 class="card-title" >System Development</h3>
-                    <p class="card-text" >
-                        Ut venenatis tellus in metus. Turpis massa sed elementum 
-                        tempus egestas sed sed. Faucibus vitae aliquet nec 
-                        ullamcorper sit amet risus nullam. Euismod quis viverra 
-                        nibh cras. Risus sed vulputate odio ut. Magnis dis 
-                        parturient montes nascetur ridiculus mus.  
-                    </p>
-                </div>
-                <div class="card clickable" >
+                <div class="card animated" >
                     <img class="card-img" src="./assets/icons/support-icon.png" alt="Support Icon" />
                     <h3 class="card-title" >Active Support</h3>
                     <p class="card-text" >
-                        Egestas diam in arcu cursus euismod. Lacus suspendisse 
-                        faucibus interdum posuere lorem ipsum dolor sit. Eget mi 
-                        proin sed libero enim sed faucibus turpis. Feugiat vivamus 
-                        at augue eget. Enim nulla aliquet porttitor lacus luctus 
-                        accumsan tortor posuere. Felis donec et odio pellentesque.
+                        Even after your website development is done, we remain on-hand
+                        to answer any questions you may have and to provide support
+                        where necessary. We strive to keep a working relationship 
+                        with you to ensure your website keeps running as smoothly as
+                        it did when brand new. Also, should you need to extend your 
+                        site or make adjustments to keep up with your growing business,
+                        we would be happy to assist. We are just a phone-call away.
                     </p>
                 </div>
             </div>
@@ -122,17 +137,17 @@
         <div id="why-us" >
             <h2 class="text header l2" >Why Choose Us?</h2>
             <p>
-                Accumsan tortor posuere ac ut consequat semper. Non diam 
-                phasellus vestibulum lorem sed risus ultricies. Nisl suscipit 
-                adipiscing bibendum est ultricies integer quis auctor. 
-                Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus 
-                urna neque. Vulputate eu scelerisque felis imperdiet proin 
-                fermentum leo. Tincidunt augue interdum velit euismod in 
-                pellentesque massa placerat. Nec nam aliquam sem et tortor 
-                consequat. Nisl nunc mi ipsum faucibus vitae aliquet nec. 
-                Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Orci 
-                ac auctor augue mauris augue. Etiam erat velit scelerisque 
-                in dictum non.
+                So, are you looking for a professional, communicative & punctual 
+                team of Web Experts with extensive web development skills? 
+                Look no farther. We are a group of designers and developers whose 
+                commitment to quality is unrelenting. 
+                <br />
+                If you have an application you are interested in developing, 
+                a problem that needs solving or a project that needs rescuing, 
+                we'd love to help you with it.   
+                <br />
+                Trust your project in the hands of experts. 
+                Let's start the conversation. 
             </p>
         </div>
 
@@ -166,11 +181,11 @@
         </div>
         <div class="footer" >
             <div class="footer-links" >
-                <p>Services</p>
-                <p>Our Work</p>
-                <p>About Us</p>
-                <p>Privacy Policy</p>
-                <p>Cookie Policy</p>
+                <a href="#services">Services</a>
+                <a href="#">Our Work</a>
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
             </div>
     
             <p>(c) Copyright 2019, Mylern Tech. All rights reserved</p>
