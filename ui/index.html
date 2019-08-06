@@ -162,16 +162,22 @@
                 </p>
             </div>
     
-            <form id="contact-form" action="/contact" method="post">
-                <input type="text" name="name" id="ct-name" placeholder="Name*" />
-                <input type="text" name="tel" id="ct-tel" placeholder="Telephone" />
-                <input type="text" name="email" id="ct-email" placeholder="Email*" />
-                <input type="text" name="website" id="ct-website" placeholder="Current Website" />
-                <textarea name="about" id="ct-about" cols="30" rows="10" placeholder="Tell us about your project*" >
-                </textarea>
+            <form id="contact-form" onsubmit="handleContactForm(event)">
+                <input class="contact-input" type="text" name="name" id="ct-name" 
+                    placeholder="Name*" required />
+                <input class="contact-input" type="text" name="tel" id="ct-tel" 
+                    placeholder="Telephone" />
+                <input class="contact-input" type="email" name="email" id="ct-email" 
+                    placeholder="Email*" required />
+                <input class="contact-input" type="text" name="website" id="ct-website" 
+                    placeholder="Current Website" />
+                <textarea 
+                    class="contact-input" name="about" id="ct-about" cols="30" rows="10" 
+                    placeholder="Tell us about your project*" required
+                ></textarea>
 
                 <div id="ct-policy-cont" >
-                    <input type="checkbox" name="policy" id="ct-policy">
+                    <input class="contact-input" type="checkbox" name="policy" id="ct-policy" required />
                     <label id="ct-policy-text" for="ct-policy">I agree to the privacy policy.</label>
                 </div>
 
@@ -188,6 +194,8 @@
             </div>
     
             <p id="footer-copyright" >(c) Copyright 2019, Mylern Tech. All rights reserved</p>
+
+            <script src="./index.js"></script>
         </div>
     </div>
 </body>

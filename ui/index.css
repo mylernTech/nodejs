@@ -164,7 +164,7 @@
     justify-content: center;
 }
 
-#contact-form input[type=text], #ct-about {
+#contact-form .contact-input {
     border: 2px solid #ddd;
     border-radius: 6px;
     font-size: medium;
@@ -173,7 +173,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#contact-form input[type=text]:focus, #ct-about:focus {
+#contact-form .contact-input:focus {
     background-color: #fbfbfb;
 }
 
@@ -189,7 +189,7 @@
         grid-template-columns: 50% 50%;
     }
 
-    #contact-form input[type=text], #ct-about {
+    #contact-form .contact-input {
         padding: 20px;
         font-size: large;
     }
